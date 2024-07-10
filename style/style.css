@@ -250,13 +250,13 @@ button a{
 
 .submit-btn{
     width: 120px;
-    height: 57px;
+    height: 58px;
     border-radius: 8px;
-    background: rgb(255, 255, 255);
-    color: rgb(13, 19, 33);
     font-size: 20px;
-    font-weight: 600;
-    padding: 17px 20px;
+    font-weight: 700;
+    padding: 1px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-top: 24px;
 }
 
 /* Footer Style */
