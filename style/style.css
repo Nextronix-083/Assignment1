@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+}
+
+/* Banner Style */
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 26px 221px 45px 221px;
+}
+
+.banner-img{
+    text-align: center;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-heading{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+}
+
+.btn{
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px;
+    margin-top: 32px;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* About Section Style */
+.about{
+    margin: 74px 152px 90px 148px;
+    padding: 80px 97px;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.about-text{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.about-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-group{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 48px;
+}
+
+.about-group img{
+    max-width: 100%;
+}
+
+.about-group-heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 32px;
+}
+
+.about-group-text{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.about-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.7);
+    padding: 12px 20px;
+}
+
+/* Inspiration Style */
+.inspiration{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.inspiration-text{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 0 144px 48px 144px;
+}
+
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 151px;
+}
+
+/* Skills Section Style */
+.skills{
+    text-align: center;
+}
+
+.skills-target{
+    margin-bottom: 48px;
+}
+
+.skills-heading{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.skills-text{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+    padding: 24px 144px 48px 144px;
+}
+
+.skills-cards{
+    display: flex;
+    margin: 0 150px 150px;
+    gap: 24px;
+}
+
+.skills-card{
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+}
+
+.skills-card:nth-child(1){
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skills-card:nth-child(2){
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skills-card:nth-child(3){
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-heading{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-text{
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.skills-card a{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+/* Support Section Style */
+.support-container{
+    padding: 0 150px 180px 150px;
+}
+
+.support-inner{
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 313px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: overlay; 
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.support-heading{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-text{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.feedback-input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    margin-bottom: 16px;
+}
+
+.submit-btn{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 20px;
+}
+
+/* Footer Style */
+footer {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px 0; /* Padding to make the footer taller */
+    border-top: 1px solid #e5e5e5; /* Light border at the top */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0 20px;
+}
+
+.footer-text {
+    font-size: 16px; 
+    color: #1a1a1a;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.footer-icons img {
+    width: 24px;
+    height: 24px;
+}
